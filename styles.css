@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+  #cocktai {
+    position: relative;
+  text-align: center;
+  color: black;
+  background-color: orange;
+  }
+  #cocktai .img1{
+    width: 100%;
+  height: 100%;
+  
+  }
+  #cockta .img3{
+    width: 100%;
+  height: 100%;
+  }
+  #cockta {
+    position: relative;
+  text-align: center;
+  color: black;background-color: greenyellow;
+  
+  }
+  
+  #cocktai .img2{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    width: 10%;
+    height: 20%;
+  }
+ 
+  #cockta .img5{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    width: 10%;
+    height: 20%;
+  }
+  #cockta .img4{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10%;
+    height: 20%;
+  }
+  
+
+  
+  #cocktai h1{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
+  #cockta h1{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
+ 
+ 
+  @media screen and (max-width: 768px){
+    #cocktai .img1{
+      width: 80%;
+    height: 80%;
+    
+    }
+    #cockta .img3{
+      width: 80%;
+    height: 80%;
+    }
+    
+   
+  }
+  
+ 
+  
